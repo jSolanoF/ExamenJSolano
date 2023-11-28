@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/styleEjercicio1.css">
+    <title>CÁLCULO DE COMPRAS</title>
+</head>
+<body>
+<div class="container">
+    <h2>CÁLCULO DE COMPRAS</h2>
+    <form action="/calcular_compra" method="post">
+        Ingresa tu nombre: <input type="text" name="nombre" required><br>
+        Ingresa tu edad: <input type="number" name="edad" required><br>
+        Ingresa la cantidad de tarros de pintura a comprar: <input type="number" name="cantidad" required><br>
+        <input type="submit" value="Calcular">
+    </form>
+</div>
+</body>
+</html>
